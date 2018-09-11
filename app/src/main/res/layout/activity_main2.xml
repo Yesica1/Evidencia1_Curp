@@ -191,13 +191,11 @@
             android:textColor="@color/colorPink"/>
 
 
-
-
         <!--ImagenView mostrada como alusiva al tema. -->
 
         <ImageView
-            android:layout_width="102dp"
-            android:layout_height="110dp"
+            android:layout_width="@dimen/d101dp"
+            android:layout_height="@dimen/d101dp"
             android:layout_below="@+id/generacionCURP"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"

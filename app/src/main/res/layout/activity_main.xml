@@ -133,7 +133,7 @@
         <!--TextView con el nombre de Fecha de nacimiento/Birthdate-->
         <TextView
             android:id="@+id/birthday"
-            android:layout_width="111dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/genero"
             android:layout_marginStart="@dimen/fab_margin"
@@ -146,6 +146,7 @@
              android:id="@+id/mes"
              android:layout_width="wrap_content"
              android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/d25dp"
              android:layout_alignBaseline="@+id/birthday"
              android:layout_toEndOf="@id/birthday"
              android:inputType="number"
