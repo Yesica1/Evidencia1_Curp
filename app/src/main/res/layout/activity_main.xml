@@ -26,7 +26,6 @@
 
     </android.support.design.widget.AppBarLayout>
 
-
         <!--PRIMER TextView para el título Conoce tu CURP /Consult your CURP  -->
         <TextView
             android:id="@+id/titleCURP"
